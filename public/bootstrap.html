@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-  </head>
-  <body>
-    <div class="container">
-      <h1>Hei, tämä on Bootstrap-sivu</h1>
-      <div class="row">
-        <h2 class="col-md-6">Tämä on vasemmalla</h2>
-        <h2 class="col-md-6">Ja tämä oikealla</h2>
-      </div>
-      <h2>Tämä on alaotsikko</h2>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Hei, tämä on Bootstrap-sivu</h1>
+    <hr/>
+    <div class="row">
+      <h2 class="col-md-6">Tämä on vasemmalla</h2>
+      <h2 class="col-md-6">Ja tämä oikealla</h2>
     </div>
-  </body>
-  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
-  <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <h2>Tämä on alaotsikko</h2>
+    <hr/>
+    <h2>Alla on lomake</h2>
+    <form id="nimiLomake">
+      <div class="row">
+        <div class="form-group col-md-4">
+          <label for="nimi">Nimi</label>
+          <input type="text" class="form-control" id="nimi" aria-describedby="nimiAvustin" placeholder="Kirjoita nimesi">
+          <small id="nimiAvustin" class="form-text text-muted">Käsittelemme tietojanne luottamuksellisesti</small>
+        </div>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Lähetä</button>
+      </div>
+    </form>
+    <h2 id="tervehdys" style="color: #ff0000"></h2>
+  </div>
+</body>
+<script src="/node_modules/jquery/dist/jquery.min.js"></script>
+<script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="app.js"></script>
 </html>
-
