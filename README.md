@@ -15,3 +15,28 @@
 * Bootstrap: http://getbootstrap.com/
 
 * JQuery: https://jquery.com/
+
+## `Node.js`:n asennus
+
+Noudata yllä olevan Node.js-sivun ohjeita.
+
+## Käyttö
+
+Tavanomainen ajaminen (sisältää pakettien asennuksen):
+
+```
+$ npm start
+```
+
+Kehitysmoodissa ajaminen, jolloin muutetut tiedostot latautuvat automaattisesti:
+
+```
+$ npm install -g supervisor
+```
+Tämä tarvitsee tehdä vain kerran. Myöhemmillä ajokerroilla tulee suorittaa tarpeen mukaan:
+
+```
+$ npm install
+$ supervisor server.js
+```
+
