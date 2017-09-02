@@ -1,0 +1,30 @@
+{
+  "name": "verkkosivusuunnittelu",
+  "version": "0.0.1",
+  "description": "Verkkosivusuunnitteluesimerkkejä ja linkkejä",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install",
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://TBD"
+  },
+  "keywords": [
+    "verkkosivusuunnittelu",
+    "Javascript",
+    "HTML",
+    "CSS",
+    "Bootstrap",
+    "JQuery"
+  ],
+  "author": "Mikko Nummelin",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "popper": "^1.0.0"
+  }
+}
