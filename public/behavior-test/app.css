@@ -1,0 +1,19 @@
+body {
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+button {
+    margin-top: 16px;
+}
+
+p {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: pink;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
